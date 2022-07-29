@@ -1,0 +1,66 @@
+/* UTILITY CLASSES*/
+:root{
+    --Light-Cyan: hsl(193, 38%, 86%);
+    --Neon-Green: hsl(150, 100%, 66%);
+    --Grayish-Blue: hsl(217, 19%, 38%);
+    --Dark-Grayish-Blue: hsl(217, 19%, 24%);
+    --Dark-Blue: hsl(218, 23%, 16%);
+    font-size:20px;
+    }
+
+/* PAGE LAYOUT*/    
+
+.container{
+    padding:2em 3em;
+    width:60%;
+    margin-block:2rem;
+}
+body {
+    display:flex;
+    flex-direction: column;
+    font-family: 'Manrope';
+    background-color: var(--Dark-Blue);
+    color:white;
+    text-align: center;
+}
+.container{
+     align-self: center;
+     display:flex;
+     flex-direction: column;
+     text-align: center;
+   
+}
+
+
+input{
+    align-self: center;
+    position: relative;
+    top:3rem;
+    background: url("/images/icon-dice.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    border:none;
+    width:4em;
+    aspect-ratio: 1;
+    border-radius: 50%;
+    background-color: var(--Neon-Green);
+}
+/* PAGE LAYOUT*/ 
+
+
+/*STYLING*/
+
+button{
+    background-color: var(--Neon-Green);
+}
+.container{
+    background-color: var(--Dark-Grayish-Blue);
+}
+#quote-name{
+    color:var(--Neon-Green);
+}
+h1{
+    text-align: center;
+    color:aqua;
+}
+/*STYLING*/
