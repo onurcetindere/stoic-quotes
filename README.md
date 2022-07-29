@@ -6,3 +6,4 @@
 
 ## This is an app which produces random Stoic Quotes for you!
 ## You Can use as much as you want!
+https://onurcetindere.github.io/stoic-quotes/
